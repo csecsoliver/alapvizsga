@@ -1,6 +1,6 @@
 # alapvizsga
-Készítők: Csécs Olivér és Hutter Áron
-HTML weboldal
+# Készítők: Csécs Olivér és Hutter Áron 
+#HTML weboldal
 Palacsintasütés🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🥞🧇🧇🧇🧇🧇🧇🧇🧇🧇😋😋😋😋😋😋😋😋😋😋😋😋😋
 Egyszerű desszertek és nyalánkságok😁😁😁😁😁🥧🍦🍰🍰🎂🎂🎂🎂🍪🍪🍩🍩🍩🍩🍨🍧🍨🍨
 Puding
@@ -19,6 +19,8 @@ Zserbó
 Mézeskalács
 Kókuszgolyó
 Almáspite
+Nevesincs
+
 
 
 
