@@ -22,10 +22,10 @@ def beolvas(filename):
         guitarlist.append(Guitar(row))
     file.close()
 
-def osszeszamolas(gyarto):
+def osszeszamolas(tipus):
     count = 0
     for g in guitarlist:
-        if g.tipus == gyarto:
+        if g.tipus == tipus:
             count += 1
     return count
 
@@ -41,8 +41,6 @@ def hathur():
         if g.hurok_szama == 6:
             print(f'{g.nev}')
 
-
-
 def gibsonatlag():
     atlag = 0
     count = 0
@@ -52,6 +50,14 @@ def gibsonatlag():
             count += 1
     return atlag / count
 
+def keres(nev):
+    for g in guitarlist:
+        if g.nev == nev:
+            print('Kapható ilyen gitár.')
+            break
+    else:
+        print('Nem kapható ilyen gitár.')
+
 def fajlbairas():
     file = open('Fender.txt', 'w', encoding='utf-8')
     for g in guitarlist:
@@ -59,13 +65,6 @@ def fajlbairas():
             file.write(f'{g.nev} - {g.tipus} - {g.gyarto} \n')
     file.close()
 
-def keres(nev):
-    for g in guitarlist:
-        if g.nev == nev:
-            print('Kapható ilyen gitár.')
-            break
-    else:
-        print('Nem kapható ilyen gitár.') 
 
 main()
 
