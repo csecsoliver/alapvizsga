@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap demo</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Desszertek</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Egyszerű Desszertek</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./nagyszeru.html">Nagyszerű desszertek</a>
+          </li>
+
+
+        </ul>
+
+      </div>
+    </div>
+  </nav>
+
+  <div id="receptek" class="ms-1 me-1">
+
+    <ul class="nav nav-tabs receptekMenu" role="tablist">
+      <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="palacsinta-tab" data-bs-toggle="tab" data-bs-target="#palacsinta-tab-pane"
+          type="button" role="tab" aria-controls="palacsinta-tab" aria-selected="true">Palacsinta</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="brownie-tab" data-bs-toggle="tab" data-bs-target="#brownie-tab-pane" type="button"
+          role="tab" aria-controls="brownie-tab-pane" aria-selected="false">Brownie</button>
+      </li>
+      <li class="nav-item" role="presentation">
+        <button class="nav-link" id="kokuszgolyo-tab" data-bs-toggle="tab" data-bs-target="#kokuszgolyo-tab-pane"
+          type="button" role="tab" aria-controls="kokuszgolyo-tab-pane" aria-selected="false">Kókuszgolyó</button>
+      </li>
+    </ul>
+    <div class="tab-content border border-black receptekContent">
+      <div class="tab-pane fade show active" id="palacsinta-tab-pane" role="tabpanel" aria-labelledby="palacsinta-tab"
+        tabindex="0">
+        <div class="tab-content-inner p-1">
+          <h5>A legjobb egyszerű palacsinta recept</h5>
+          <div class="row ms-0 me-0">
+            <div class="col-md-8 border border-black">
+              <h5>Elkészítés</h5>
+              <img src="images/palacsinta.jpg" alt="Palacsinta készen" title="Palacsinta készen">
+              <ol>
+                <li>A palacsintatészta elkészítéséhez keverőtálba töltjük a tejet. Hozzáadjuk a tojást, az olajat, a
+                  csipet sót, és alaposan összekeverjük. Használhatunk hozzá robotgépet is.</li>
+                <li>Hozzámérjük a lisztet, és sűrű, krémszerű tésztát keverünk belőle. Végül hozzáadjuk a szódát, vagy a
+                  szénsavas ásványvizet is.</li>
+                <li>Nagyon fontos, hogy csomómentesre keverjük a palacsintatésztát. Sütés előtt pihentessük legalább
+                  10-15 percet.</li>
+                <li>Az első palacsinta sütése előtt a forró serpenyőbe egy kevés olajat öntünk (a következő
+                  palacsintáknál erre már nincs szükség, maximálisan elegendő, ami kisül a tésztából), és kisebb
+                  merőkanálnyi adagot öntünk rá a tésztából. Hagyjuk, elterülni a serpenyőben.</li>
+                <li>A palacsintákat egyenként kisütjük mindkét oldalukon.</li>
+                <li>Ízlés szerinti töltelékkel töltjük és feltekerjük, vagy hajtogatjuk. Megszórhatjuk porcukorral is,
+                  de nagyon jól illik hozzá a csokoládészósz és a vaníliasodó is. </li>
+
+              </ol>
+            </div>
+            <div class="col-md-4 border border-black">
+              <h5>Hozzávalók</h5>
+              <table class="border border-black osszetevok">
+                <tr>
+                  <th>Alapanyag</th>
+                  <th>Mennyiség</th>
+                </tr>
+                <tr>
+                  <td>Liszt</td>
+                  <td>20 dkg</td>
+                </tr>
+                <tr>
+                  <td>Tojás</td>
+                  <td>2 db</td>
+                </tr>
+                <tr>
+                  <td>Tej</td>
+                  <td>3 dl</td>
+                </tr>
+                <tr>
+                  <td>Szénsavas ásványvíz</td>
+                  <td>2 dl</td>
+                </tr>
+                <tr>
+                  <td>Só</td>
+                  <td>1 csipet</td>
+                </tr>
+                <tr>
+                  <td>Olaj</td>
+                  <td>0.75dl + a sütéshez</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="footerss">
+            <p>Forrás: <a href="https://www.mindmegette.hu/a-legjobb-palacsintateszta.recept/">Mindmegette</a></p>
+          </div>
+
+        </div>
+
+      </div>
+      <div class="tab-pane fade" id="brownie-tab-pane" role="tabpanel" aria-labelledby="brownie-tab" tabindex="0">
+        <div class="tab-content-inner p-1">
+          <h5>Duplacsokis brownie egyszerűen</h5>
+          <div class="row ms-0 me-0">
+            <div class="col-md-8 border border-black">
+              <h5>Elkészítés</h5>
+              <img src="images/brownie.jpg" alt="Brownie készen" title="Brownie készen">
+              <ol>
+                <li>A duplacsokis brownie elkészítéséhez a vajat és a csokidarabok kétharmadát egy nagyobb üvegtálba
+                  tesszük, és a mikróban másfél perc alatt megolvasztjuk. Ha kivettük, 3 percig pihentetjük, hogy a
+                  csokoládé teljesen felolvadjon a vajban, és egy kicsit besűrűsödjön, majd simára keverjük a masszát.
+                </li>
+                <li>Beletesszük a cukrokat, a sót és a vaníliakivonatot, majd alaposan összedolgozzuk. Ha összeállt a
+                  cukros massza, beletesszük a tojásokat, beleszitáljuk a lisztet és a kakaóport, összekeverjük, majd
+                  maradék csokit is hozzáadjuk, és egyenletesen elkeverjük.</li>
+                <li>Olajspray-vel befújt, sütőpapírral bélelt tepsibe öntjük a tésztát, és 180 fokon 35-40 perc alatt
+                  készre sütjük. </li>
+
+              </ol>
+            </div>
+            <div class="col-md-4 border border-black">
+              <h5>Hozzávalók</h5>
+              <table class="border border-black osszetevok">
+                <tr>
+                  <th>Alapanyag</th>
+                  <th>Mennyiség</th>
+                </tr>
+                <tr>
+                  <td>Vaj</td>
+                  <td>23 dkg</td>
+                </tr>
+                <tr>
+                  <td>Étcsokoládé</td>
+                  <td>26 dkg</td>
+                </tr>
+                <tr>
+                  <td>Porcukor</td>
+                  <td>30 dkg</td>
+                </tr>
+                <tr>
+                  <td>Barna cukor</td>
+                  <td>16.5 dkg</td>
+                </tr>
+                <tr>
+                  <td>Só</td>
+                  <td>1 tk</td>
+                </tr>
+                <tr>
+                  <td>Vaníliakivonat</td>
+                  <td>1 tk</td>
+                </tr>
+                <tr>
+                  <td>Tojás</td>
+                  <td>3 db</td>
+                </tr>
+                <tr>
+                  <td>Teljes kiörlésű liszt</td>
+                  <td>15.5 dkg</td>
+                </tr>
+                <tr>
+                  <td>Kakaópor</td>
+                  <td>4 dkg</td>
+                </tr>
+                <tr>
+                  <td>Olajspray</td>
+                </tr>
+              </table>
+            </div>
+          </div>
+          <div class="footers">
+            <p>Forrás: <a href="https://www.mindmegette.hu/duplacsokis-brownie-egyszeruen.recept/">Mindmegette</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="kokuszgolyo-tab-pane" role="tabpanel" aria-labelledby="kokuszgolyo-tab"
+        tabindex="0">
+        <div class="tab-content-inner p-1">
+          <h5>Kókuszgolyó pofonegyszerűen</h5>
+          <div class="row ms-0 me-0">
+            <div class="col-md-8 border border-black">
+              <h5>Elkészítés</h5>
+              <img src="images/kokuszgolyo.jpg" alt="Kókuszgolyó készen" title="Kókuszgolyó készen">
+              <ol>
+                <li>A kókuszgolyó elkészítéséhez a háztartási kekszet ledaráljuk, elkeverjük a szobahőmérsékletű vajjal,
+                  a porcukorral, a vaníliás cukorral, a kakaóval, a tejjel és a rumaromával.
+                </li>
+                <li>Nedves kézzel golyókat formálunk a masszából, és egyenként megforgatjuk őket a kókuszreszelékben.
+                </li>
+                <li>A kész kókuszgolyókat fóliával letakarva kb. 2 órára a hűtőszekrénybe tesszük, hogy megkeményedjenek
+                  egy kicsit.</li>
+
+              </ol>
+            </div>
+            <div class="col-md-4 border border-black">
+              <h5>Hozzávalók</h5>
+              <table class="border border-black osszetevok">
+                <tr>
+                  <th>Alapanyag</th>
+                  <th>Mennyiség</th>
+                </tr>
+                <tr>
+                  <td>Darált háztartási keksz</td>
+                  <td>50 dkg</td>
+                </tr>
+                <tr>
+                  <td>Vaj</td>
+                  <td>10 dkg</td>
+                </tr>
+                <tr>
+                  <td>Porcukor</td>
+                  <td>10 dkg</td>
+                </tr>
+                <tr>
+                  <td>Vaniliás cukor</td>
+                  <td>1 csomag</td>
+                </tr>
+                <tr>
+                  <td>Kakaó</td>
+                  <td>2 ek</td>
+                </tr>
+                <tr>
+                  <td>Tej</td>
+                  <td>2 dl</td>
+                </tr>
+                <tr>
+                  <td>Rumaroma</td>
+                  <td>0.5 tk</td>
+                </tr>
+                <tr>
+                  <td>Kókuszreszelék</td>
+                  <td>10 dkg</td>
+                </tr>
+
+              </table>
+            </div>
+          </div>
+          <div class="footers">
+            <p>Forrás: <a href="https://www.mindmegette.hu/kokuszgolyo-pofonegyszeruen.recept/">Mindmegette</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+</body>
+
+</html>
