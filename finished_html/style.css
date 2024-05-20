@@ -29,10 +29,18 @@ table {
 h5 {
     text-decoration: underline;
 }
+
 a {
     color: rgb(146, 54, 0);
     text-decoration: none;
+    
 }
+
+a:hover {
+    text-decoration: underline;
+    
+}
+
 th {
     font-style: italic;
 }
