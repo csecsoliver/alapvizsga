@@ -1,10 +1,13 @@
 # alapvizsga
 Készítők: Csécs Olivér és Hutter Áron 
-nem tudom erről mit lehet írni
+
 Python
-1. feladat:
+1. feladat: - Áron
 palacsintasütés
-2. feladat:
-nemtom xd
-3. feladat:
+2. feladat: - Olivér
+Menzaértékelés
+3. feladat: - Áron
 Zenebolt 
+
+Html: - Olivér
+Egyszerű és nagyszerű receptek
